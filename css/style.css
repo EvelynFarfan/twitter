@@ -1,0 +1,22 @@
+body{
+	background-color: #D1D1D1;
+}
+section{
+	background-color: #4DB09C;
+	text-align: center;
+	width: 60%;
+	margin: 40px auto;
+	padding: 30px;
+}
+.imgProfile{
+	width: 35%;
+	display: inline-block;
+}
+img{
+	width: 150px;
+}
+.contPublicacion{
+	background-color: red;
+	width: 60%;
+	display: inline-block;
+}
