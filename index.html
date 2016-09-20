@@ -6,19 +6,24 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<section>
-		<div class="imgProfile">
-			<img src="img/signup_female.png" alt="">
-		</div>
-		<div class="contPublicacion">
-			<form>
-			<textarea name="texto" id="textoInput" cols="30" rows="10" placeholder="Ingrese su publicación"></textarea>
-			<br>
-			<button type="button" id="boton">Tweet</button>
-			</form>
-			<div id="mensaje"></div>
+<h1>TWITTER</h1>
+	<section class="container">
+		<div class="row">
+			<div class="imgProfile">
+				<img src="img/profile.png" alt="">
+			</div>
+			<div class="contPublicacion">
+				<form>
+					<textarea name="texto" id="textoInput" cols="20" rows="3" placeholder="Ingrese su publicación"></textarea>
+					<br>
+					<div id="counter"></div>
+					<button type="button" id="boton">Tweet</button>
+				</form>
+				<div id="mensaje"></div>
+			</div>
 		</div>
 	</section>
+
 	<script type='text/javascript' src='js/main.js'></script>
 </body>
 </html>

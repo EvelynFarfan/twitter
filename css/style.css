@@ -1,22 +1,62 @@
 body{
-	background-color: #D1D1D1;
+	background-image: url(../img/fondo.gif);
+	font-family: Arial;
+	text-align: center;
 }
 section{
 	background-color: #4DB09C;
 	text-align: center;
-	width: 60%;
+	width: 50%;
 	margin: 40px auto;
 	padding: 30px;
-}
-.imgProfile{
-	width: 35%;
-	display: inline-block;
+	border-radius: 10px;
 }
 img{
 	width: 150px;
+	margin: 0 auto;
+	margin-bottom: 20px 
 }
-.contPublicacion{
-	background-color: red;
-	width: 60%;
-	display: inline-block;
+form{
+	position: relative;
 }
+h1{
+	text-align: center;
+	color: gray;
+}
+#counter{
+  width: 10%;
+  background-color: #fff;
+  position: absolute;
+  right: 130px;
+  padding: 2px;
+  border-radius: 8px;
+}
+#textoInput{
+	width: 80%;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#boton{
+	right: 0;
+	margin-bottom: 20px;
+	position: absolute;
+  right: 67px;
+}
+#mensaje{
+	margin-top: 40px;
+}
+.publicacion{
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	text-align: left;
+	background-color: #fff;
+	padding: 5px 0 5px 10px;
+	margin-top: 10px;
+	word-wrap: break-word;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+@media
