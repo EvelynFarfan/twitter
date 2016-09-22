@@ -32,7 +32,9 @@ h1{
   border-radius: 8px;
 }
 #textoInput{
+	overflow: hidden;
 	width: 80%;
+	height: auto;
 	margin-bottom: 15px;
 	border: 1px solid #ddd;
   border-radius: 4px;
@@ -59,4 +61,3 @@ h1{
 	border-radius: 10px;
 	border: 1px solid gray;
 }
-@media

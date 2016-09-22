@@ -11,12 +11,16 @@ window.addEventListener("load", function(){
 		publicacion.classList.add("publicacion");
 		publicacion.innerHTML = textoInput.value;
 		var contenido = document.getElementById("mensaje");
-		contenido.insertBefore(publicacion, contenido.childNodes[0]);
+		contenido.insertBefore(publicacion, contenido.childNodes[1]);
 		document.getElementById("textoInput").value = "";
 		contador.innerHTML = 140;
 		boton.disabled = true;
 	});
-	textoInput.addEventListener("keyup", function(){
+	textoInput.addEventListener('keyup', function(){
+    textoInput.style.cssText = 'height:auto; padding:0';
+    textoInput.style.cssText = 'height:' + textoInput.scrollHeight + 'px';
+	});
+	textoInput.addEventListener("keyup", function(e){
 		boton.disabled = false;
 		var numCarat = textoInput.value.length;
 		contador.innerHTML = numCaratMax - numCarat;
