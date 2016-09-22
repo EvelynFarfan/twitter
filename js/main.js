@@ -13,9 +13,19 @@ window.addEventListener("load", function(){
 		var contenido = document.getElementById("mensaje");
 		contenido.insertBefore(publicacion, contenido.childNodes[1]);
 		document.getElementById("textoInput").value = "";
+		horaTweet(publicacion);
 		contador.innerHTML = 140;
 		boton.disabled = true;
 	});
+	function horaTweet (publicacion){
+		var dataFecha =  new Date ();
+		var dataHora = dataFecha.getHours();
+		var dataMin = dataFecha.getMinutes()
+		var mostrarHora = dataHora + " : " + dataMin + " ";
+		var hora = document.createElement("span");
+		hora.innerHTML = mostrarHora;
+		publicacion.insertBefore(hora, publicacion.childNodes[0]);
+	}
 	textoInput.addEventListener('keyup', function(){
 		textoInput.style.cssText = 'height:auto; padding:0';
 		textoInput.style.cssText = 'height:' + textoInput.scrollHeight + 'px';
