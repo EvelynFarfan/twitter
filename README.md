@@ -2,7 +2,7 @@
 
 <a href="http://4.1m.yt/tFaKSi-.jpg" target="_blank"><img src="http://4.1m.yt/tFaKSi-.jpg" alt="ImgLand.net image" /></a>
 
-###Requerimeintos:
+###Requerimientos:
 
 **Versión 0.0.1:**
 - Diseñar un formulario que tenga un textarea y un botón.
