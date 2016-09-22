@@ -17,8 +17,8 @@ window.addEventListener("load", function(){
 		boton.disabled = true;
 	});
 	textoInput.addEventListener('keyup', function(){
-    textoInput.style.cssText = 'height:auto; padding:0';
-    textoInput.style.cssText = 'height:' + textoInput.scrollHeight + 'px';
+		textoInput.style.cssText = 'height:auto; padding:0';
+		textoInput.style.cssText = 'height:' + textoInput.scrollHeight + 'px';
 	});
 	textoInput.addEventListener("keyup", function(e){
 		boton.disabled = false;
