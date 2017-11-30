@@ -1,10 +1,10 @@
 # Simulador Twitter
 
-Link Del Proyecto: https://efarfan2393.github.io/twitter/
+Link Del Proyecto: https://evelynfarfan.github.io/twitter/
 
-<a href="http://4.1m.yt/tFaKSi-.jpg" target="_blank"><img src="http://4.1m.yt/tFaKSi-.jpg" alt="ImgLand.net image" /></a>
+<img src="https://vgy.me/wAkMtE.png">
 
-###Requerimientos:
+### Requerimientos:
 
 **Versión 0.0.1:**
 - Diseñar un formulario que tenga un textarea y un botón.
